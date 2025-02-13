@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ConfigLobbyActivity">
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/background1">
+        <ImageView
+            android:id="@+id/imageRegister"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_margin="16dp"
+            android:src="@drawable/icon_trivialist"
+            android:contentDescription="@string/image_logo"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonInit"
+                style="@style/buttonCancel"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/init" />
+            <EditText
+                android:id="@+id/editTextRoomCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Ingrese el código de la sala"
+                android:textColor="@color/white"
+                android:layout_marginTop="16dp"
+                android:layout_centerHorizontal="true"/>
+
+            <!-- Botón para unirse a la sala -->
+            <Button
+                android:id="@+id/buttonJoinRoom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unirse a la sala"
+                android:layout_below="@id/editTextRoomCode"
+                android:layout_marginTop="16dp"
+                android:layout_centerHorizontal="true"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Trivialist</string>
+    <string name="nameUser">Nombre usuario</string>
+    <string name="email">"Email</string>
+    <string name="password">Contraseña</string>
+    <string name="enter">Entrar</string>
+    <string name="register">Registro</string>
+    <string name="cancel">Cancelar</string>
+    <string name="init">Iniciar</string>
+    <string name="confirm">Confirmar</string>
+    <string name="title_register">Introduzca sus datos</string>
+    <string name="image_logo">Imagen Logo</string>
+    <string name="rotate">Girar</string>
+    <string name="help">Ayuda</string>
+    <string name="play">Comenzar trivial</string>
+    <string name="players">Numero de Jugadores</string>
+    <string name="difficultyEasy">Facil</string>
+    <string name="difficultyDifficult">Dificil</string>
+    <string name="twoPlayer">2 Jugadores</string>
+    <string name="fourPlayer">4 Jugadores</string>
+    <string name="contest">Contestar</string>
+</resources>

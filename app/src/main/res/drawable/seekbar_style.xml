@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="10dp" /> <!-- Redondeado -->
+            <solid android:color="@color/black" /> <!-- Barra blanca -->
+        </shape>
+    </item>
+
+    <item android:id="@android:id/secondaryProgress">
+        <shape>
+            <corners android:radius="10dp" /> <!-- Redondeado -->
+            <solid android:color="#CCCCCC" /> <!-- Color del progreso secundario opcional -->
+        </shape>
+    </item>
+
+    <item android:id="@android:id/progress">
+        <shape>
+            <corners android:radius="10dp" /> <!-- Redondeado -->
+            <solid android:color="@color/white" /> <!-- Color del progreso principal -->
+        </shape>
+    </item>
+</layer-list>

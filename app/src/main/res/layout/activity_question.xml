@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main"
+        tools:context=".QuestionActivity"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/background2">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/Tittlequestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/title"/>
+        <TextView
+            android:id="@+id/questiondescript"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/title"/>
+        <RadioGroup
+            android:id="@+id/radioGroupQuestions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </RadioGroup>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/enterQuestion"
+            style="@style/buttonConfirm"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="@string/contest"/>
+
+    </LinearLayout>
+
+</layout>

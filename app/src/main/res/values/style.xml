@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="EditText_Standard">
+        <item name="android:background">@drawable/edittext_border</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_width">260dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+    </style>
+    <style name="Button_Standard" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="cornerRadius">8dp</item> <!-- Define el radio de las esquinas redondeadas -->
+        <item name="strokeColor">@color/black</item> <!-- Color del borde -->
+        <item name="strokeWidth">2dp</item> <!-- Grosor del borde -->
+        <item name="android:textColor">@color/black</item> <!-- Color del texto -->
+        <item name="android:layout_marginEnd">8dp</item>
+    </style>
+    <style name="buttonConfirm" parent="Button_Standard">
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/black</item> <!-- Color del texto -->
+        <item name="android:layout_marginEnd">8dp</item>
+    </style>
+    <style name="buttonCancel" parent="Button_Standard">
+        <item name="android:backgroundTint">@color/black</item>
+        <item name="android:textColor">@color/white</item> <!-- Color del texto -->
+        <item name="android:layout_marginEnd">8dp</item>
+    </style>
+    <style name="title">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/white</item> <!-- Color del texto -->
+    </style>
+    <style name="Layouts_Vertical">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+
+    <style name="categoryHistory">
+        <item name="android:background">@drawable/history_card</item>
+    </style>
+    <style name="categorySport">
+        <item name="android:background">@drawable/sport_card</item>
+    </style>
+    <style name="categoryArt">
+        <item name="android:background">@drawable/art_card</item>
+    </style>
+    <style name="categoryGeography">
+        <item name="android:background">@drawable/geography_card</item>
+    </style>
+    <style name="categoryMath">
+        <item name="android:background">@drawable/math_card</item>
+    </style>
+    <style name="init">
+        <item name="android:background">@drawable/init_card</item>
+    </style>
+
+    <style name="textStylePlayer">
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+</resources>

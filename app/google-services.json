@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "188581097251",
+    "project_id": "trivialist-e2b22",
+    "storage_bucket": "trivialist-e2b22.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188581097251:android:40069508dcf5965a512696",
+        "android_client_info": {
+          "package_name": "com.example.trivialist"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBszwt-aAP4PYuze7oVUulW0n1mM6QlaZo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
